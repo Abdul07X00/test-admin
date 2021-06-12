@@ -116,7 +116,7 @@ const DataTable = ({ className, tickets, ...rest }) => {
                       </TableCell>
                     </TableRow>
                   ))
-                : ""}
+                : <h3>No record found</h3>}
             </TableBody>
           </Table>
         </Box>

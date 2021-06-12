@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 var instance = axios.create({
-  baseURL: 'http://ticket.happiness-spinner.com/api/', // Config.API_URL
+  baseURL: 'http://localhost:8000/api/', // Config.API_URL
   timeout: 120000,
   headers: {
     Accept: 'application/json',
