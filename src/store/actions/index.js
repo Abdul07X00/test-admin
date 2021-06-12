@@ -1,3 +1,1 @@
-export {
-  createTicket,
-} from './contactus';
+export { loadTickets, changeTicketStatus, deleteTicket } from './tickets';

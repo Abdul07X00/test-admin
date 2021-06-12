@@ -1,9 +1,10 @@
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
 
-import contactus from './reducers/contactus';
+import tickets from './reducers/tickets';
+
 const reducer = combineReducers({
-  contactus: contactus
+  tickets: tickets
 });
 
 const configureStore = () => {
